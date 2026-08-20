@@ -1,0 +1,8 @@
+名（Given name）應始終放在姓（Family name）之後。若作者擁有複姓，應標示出姓氏的部分，例如使用不換行空格（non-breaking spaces）：Jos\’{e} Martinez~Perez，或是使用大括號：Jos\’{e} {Martinez Perez}。\authorrunning 由於頁眉（running heads）中的名會縮寫為首字母，請使用可選指令 \authorrunning{<縮寫後的作者列表>} 來指定縮寫後的作者名單。
+
+（此處接續前文）用於提供作者的電子郵件地址與網頁。若您需要排版波浪號（tilde, ~）字元——例如用於您 Unix 系統家目錄中的網頁路徑——可使用 \homedir 指令。若多位作者具有相同的所屬單位，請檢查電子郵件地址的順序是否與（所屬）作者姓名的順序一致。請注意，若論文中提供了電子郵件地址，這些地址也將包含在線上版本的中繼資料（metadata）中。
+
+系 corollary (環境) 在 llncs 文件類別（document class）中預定義了數個定理類環境。definition (環境) 以下環境具有粗體的句首標題（run-in heading），而後續文字 lemma (環境) 則為斜體：proposition (環境) <text> \end{corollary} theorem (環境) \begin{corollary} \begin{definition} <text> \end{definition} \begin{lemma} <text> \end{lemma} \begin{proposition} <text> \end{proposition} \begin{theorem} <text> \end{theorem}
+
+（此處接續前文）將建立一個主定理環境，其編號與預定義的定理同步。預期會共享預設的計數器（[theorem]）。若您省略 \spnewtheorem 的第二個可選參數，則在整個文件中將為您的新環境使用獨立的計數器。結合（已廢棄的）類別選項 envcountsect（參見第 8 節），\spnewtheorem 指令還支援以下語法：
+\spnewtheorem{<環境名稱>}{<caption>}[<範圍>]{<標題字體>}{<內文字體>}

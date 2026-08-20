@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zhmd"
+version = "1.0.0"
+description = "A descriptive scale for metadiscourse markers in Chinese academic writing (not a detector)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Chenwei Chiang"}]
+keywords = ["metadiscourse", "Chinese", "academic writing", "corpus linguistics", "Kansei"]
+dependencies = ["numpy>=1.24", "pandas>=2.0", "statsmodels>=0.14"]
+
+[project.scripts]
+zhmd = "zhmd.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+zhmd = ["reference.csv"]

@@ -1,0 +1,9 @@
+「智慧型對話代理人（intelligent dialog agents）的下一步，在於如何擺脫其僅作為『沉默旁觀者』的角色，轉而展現主動性。定義明確的主動行為有助於提升人機協作（human-machine cooperation）的成效，因為代理人在互動過程中能扮演更積極的角色，進而減輕使用者的負擔。然而，主動性是一把雙面刃，因為執行不當的先發制人行動（pre-emptive actions），不僅可能對任務結果造成毀滅性的影響，也可能破壞與使用者之間的關係。為了設計適切的主動對話策略，我們提出了一種新穎的方法，在對話中同時納入社交面向與任務相關的特徵。在此，主要目標在於優化主動行為，使其既能以任務為導向（意即達成高成功率與高效率），同時也能透過建立使用者信任，在社交層面上展現效能。透過在強化學習（reinforcement learning）的獎勵函數（reward function）中同時納入這兩個面向，實驗結果證明了我們的方法能有效促進更成功的人機協作。」
+
+*   Intelligent dialog agents: 智慧型對話代理人（AI 領域常用譯名）。
+*   Proactive: 主動的 / 具主動性的。
+*   Human-machine cooperation: 人機協作。
+*   Pre-emptive actions: 先發制人的行動 / 預先採取的行動。
+*   Task-oriented: 以任務為導向。
+*   Reinforcement learning: 強化學習（機器學習標準譯名）。
+*   Reward function: 獎勵函數（強化學習標準譯名）。

@@ -1,0 +1,11 @@
+「大規模審議系統已成功解決了極化議題，並將議題設定權交還給大眾。這些系統整合了基於橋接（bridging-based）的排序演算法——包括 Polis 所採用的群體知情共識（group informed consensus）以及 Twitter Birdwatch 所採用的連續矩陣分解法（continuous matrix factorization approach）——使得突顯那些獲得多元意見群體廣泛支持的言論成為可能。Polis 已在立法實踐中被有效地運用，用以促進國家規模下更具建設性的政治審議。Twitter Birdwatch 的推出旨在應對全球公共領域中的錯誤資訊問題。從一個角度來看，Twitter Birdwatch 可以被視為一個具備審議面向的反錯誤資訊系統；但從另一個角度來看，它也可以被視為邁向廣義審議系統的第一步，並將 Twitter 的錯誤資訊問題作為其試驗場。在本文中，我們提議 Twitter 可以改進 Birdwatch，用以產出民意圖譜。我們將此系統分為五個部分來描述，以實現 Birdwatch 的泛用化：審議系統的啟動與議題選擇、人口抽樣與專家網絡的角色、審議過程、回報具可解釋性的結果，以及最後將結果傳遞給大眾與掌權者。」
+
+*   Large scale deliberation: 大規模審議（「審議」是 Deliberative Democracy 審議民主中的標準譯名）。
+*   Polarized issues: 極化議題（指立場極端對立的議題）。
+*   Agenda setting: 議題設定 / 議程設置。
+*   Bridging-based ranking algorithms: 基於橋接的排序演算法（「Bridging」在網絡科學中指連結不同群體的機制）。
+*   Continuous matrix factorization: 連續矩陣分解（數學/機器學習術語）。
+*   Public square: 公共領域 / 公共廣場。
+*   Proving ground: 試驗場 / 實驗場。
+*   Maps of public opinion: 民意圖譜（將意見視覺化為地圖或分布圖）。
+*   Those in power: 掌權者 / 決策者。

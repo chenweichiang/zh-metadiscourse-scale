@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "zhmd — A Metadiscourse Scale for Chinese Academic Writing"
+message: "If you use this software, please cite the accompanying paper."
+type: software
+authors:
+  - family-names: Chiang
+    given-names: Chenwei
+    affiliation: "National Taipei University of Business"
+license: MIT
+version: 1.0.0
+repository-code: "https://github.com/chenweichiang/zh-metadiscourse-scale"
+preferred-citation:
+  type: conference-paper
+  title: "AI-Sounding Text as a New Kansei Object: Metadiscourse Traces in Chinese Academic Writing and the Limits of Their Measurement"
+  authors:
+    - family-names: Chiang
+      given-names: Chenwei
+      affiliation: "National Taipei University of Business"
+  year: 2026
+  notes: "Submitted to the 2026 International Conference on Kansei (ICTIK), Taiwan Institute of Kansei. Update this entry once the venue details are final."

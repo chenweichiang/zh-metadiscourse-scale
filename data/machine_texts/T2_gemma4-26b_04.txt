@@ -1,0 +1,15 @@
+「透過第一人稱視角（egocentric vision）來理解手部與物體的交互作用，對於建模人類如何與周圍世界進行物理互動至關重要。然而，若要對具備物理基礎（physically grounded）的交互作用進行推理，除了定位接觸點之外，還需要估計作用在手部與物體上的力。我們提出了 EgoPHI，這是第一個僅透過單目 RGB 影像與物體幾何結構，即可同時估計手部與物體網格上密集接觸圖（dense contact maps）與 3D 力分布（3D force distributions）的方法。
+
+為了應對缺乏具可擴展性的真實值（ground-truth）力標註的問題，我們引入了一套基於物理的模擬流程，透過密集的逐頂點（per-vertex）力監督，來擴充現有的手部與物體互動數據集。接著，EgoPHI 學習在互動的手部與關節物體（articulated object）網格上進行密集的 3D 接觸與力估計，將基於視覺的力估計從影像空間或平面設定中延伸出來。
+
+我們在分布內（in-distribution）與分布外（out-of-distribution）基準測試上的評估顯示，EgoPHI 在提升力估計準確度的同時，也能泛化至未見過的數據集。為了評估從模擬到現實（sim-to-real）的遷移能力，我們製作了兩個能捕捉密集物體接觸與力大小的實體物體，並利用它們記錄了八位參與者在各種觸碰與抓握類型下的互動數據集。我們的結果證明，EgoPHI 在模擬、分布外以及真實世界場景中，都能重建出具意義的 3D 接觸與力分布，將第一人稱視角的手部與物體理解，從單純的接觸定位，推向了具備物理基礎的交互作用推理。」
+
+*   Egocentric vision: 第一人稱視角視覺 / 自中心視覺
+*   Physically grounded interaction: 具備物理基礎的交互作用
+*   Dense contact maps: 密集接觸圖
+*   3D force distributions: 3D 力分布
+*   Monocular RGB image: 單目 RGB 影像
+*   Articulated object: 關節物體 / 具關節結構的物體
+*   In-distribution / Out-of-distribution: 分布內 / 分布外
+*   Sim-to-real transfer: 從模擬到現實的遷移
+*   Contact localization: 接觸定位

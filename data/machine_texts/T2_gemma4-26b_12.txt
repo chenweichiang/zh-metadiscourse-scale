@@ -1,0 +1,14 @@
+「共享自主控制（Shared autonomy）需要一套有原則的機制，用以在人類與自主代理人（autonomous agent）之間分配與轉移控制權。現有的方法通常依賴於混合控制輸入或啟發式（heuristic）切換規則，這些方法缺乏理論保證，且未能考慮權限轉移的動態過程。本文針對共享自主控制中的權限切換，開發了一套合作賽局理論（cooperative game-theoretic）框架。我們將控制切換問題建模為一個利益一致（identical-interest）的動態賽局，其中權限轉換被嵌入到系統動態中，從而產生最佳切換策略，而非僅是缺乏系統性的規則（ad hoc rules）。我們確立了在隨機人類干預（stochastic human override）下，純策略（pure strategies）中團隊最佳策略（team-optimal policies）的存在性與特性描述，並考慮了人類保留干預能力的非對稱權限情況。對於線性二次系統（linear-quadratic systems），我們推導出了最佳切換策略與價值函數的閉式遞迴式（closed-form recursions），實現了不依賴於連續狀態的高效計算。我們在純量（scalar）與多維線性系統上驗證了此框架，展示了最佳切換如何適應變化的系統動態、成本結構以及干預機率。研究結果揭示了人類適應性與自主效率之間的根本權衡（trade-offs），說明了將共享自主控制建立在合作賽局理論之上的實際效益。」
+
+*   Shared autonomy: 共享自主控制 / 共享自主性
+*   Autonomous agent: 自主代理人 / 自主系統
+*   Heuristic switching rules: 啟發式切換規則
+*   Cooperative game-theoretic framework: 合作賽局理論框架
+*   Identical-interest dynamic game: 利益一致的動態賽局
+*   Ad hoc rules: 缺乏系統性的規則 / 臨時性規則
+*   Pure strategies: 純策略
+*   Stochastic human override: 隨機人類干預（或覆蓋）
+*   Linear-quadratic systems: 線性二次系統
+*   Closed-form recursions: 閉式遞迴式 / 解析解遞迴式
+*   Scalar and multi-dimensional: 純量與多維
+*   Trade-offs: 權衡 / 取捨

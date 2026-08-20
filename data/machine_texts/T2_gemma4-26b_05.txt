@@ -1,0 +1,16 @@
+「隨著電腦科學與機器人技術的進步，開發流暢且直觀的方法來與數位系統、擴增/虛擬實境 (AR/VR) 介面以及實體機器人系統進行互動，已變得至關重要。手部動作辨識被廣泛應用於實現此類互動。手部姿勢分類與掌指關節 (MCP) 角度檢測，對於完整重建手部動作而言非常重要。目前已有研究利用表面肌電圖 (sEMG) 等技術來檢測手部動作，且前臂超音波影像能提供肌肉骨骼的視覺化資訊，可用於理解手部動作。近期的研究顯示，透過機器學習可以對這些超音波影像進行分類，藉此估算離散的手部姿勢。然而，文獻中尚未有針對基於前臂超音波來同時估算手部姿勢與 MCP 關節角度的研究。
+
+在本文中，我們提出了一種基於卷積神經網路 (CNN) 的深層學習流程，用於預測 MCP 關節角度。我們使用不同的機器學習演算法來比較手部姿勢分類的結果；其中包含具有不同核函數 (kernels) 的支持向量分類器 (SVC)、多層感知器 (MLP) 以及本文所提出的 CNN，並將超驗波影像分類為基於日常生活活動 (ADL) 的 11 種手部姿勢。實驗中，我們從 6 名受試者身上取得前臂超音波影像，並指示其依照預定義的手部姿勢進行動作；同時取得動態捕捉數據，以獲得在不同速度下與手部動作相對應的手指角度。在數據集的子集中，所提出的 CNN 平均分類準確度達到 82.7%，而不同核函數的 SVC 則超過 80%。預測的 MCP 關節角度與真實角度之間的平均均方根誤差 (RMSE) 為 7.35 度。最後，本文提出了一個低延遲（6.25 - 9.1 Hz）的流程，用於同時估算 MCP 關節角度與手部姿勢，旨在實現人機介面的即時控制。」
+
+*   Hand configuration: 手部姿勢 (在機器人與電腦視覺領域，configuration 通常譯為姿勢或構型)
+*   MCP joint (Metacarpophalangeal joint): 掌指關節
+*   sEMG (surface Electromyography): 表面肌電圖
+*   Musculoskeletal visualization: 肌肉骨骼視覺化
+*   CNN (Convolutional Neural Network): 卷積神經網路
+*   Pipeline: 流程 / 架構
+*   SVC (Support Vector Classifier): 支持向量分類器
+*   MLP (Multi-Layer Perceptron): 多層感知器
+*   Activities of daily living (ADL): 日常生活活動
+*   Motion capture: 動態捕捉
+*   RMSE (Root Mean Square Error): 均方根誤差
+*   Human-machine interfaces (HMI): 人機介面

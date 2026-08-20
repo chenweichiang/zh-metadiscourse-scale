@@ -1,0 +1,9 @@
+「IT 稽核要求稽核人員判斷異質性的組織證據是否符合語義上的安全性與合規性控制措施。由於相關證據分散於政策、紀錄、試算表及營運產出物（operational artifacts）中，且稽核結論取決於證據的充分性而非單純的關鍵字比對，因此此類判斷難以自動化。我們提出了 IntelliAudit，一個用於 IT 稽核證據評估、以檢索為基礎（retrieval-grounded）的多代理人系統（multi-agent system）。在給定特定控制措施與證據語料庫的情況下，IntelliAudit 能檢索相關產出物、生成基於證據的評估、針對不利發現提出質疑、裁決意見分歧，並產出面向稽核人員的建議報告，其中包含引用的證據、理據、缺失證據分析以及補救指引。我們將 IntelliAudit 應用於 ISO/IEC 27001 標準，並透過專家稽核員審查及稽核準備就緒度（audit-readiness）的使用者回饋，在多個模擬組織中進行評估。評估結果顯示，IntelliAudit 能有效支援控制措施的解讀、基於證據的推理以及稽核準備工作流程，同時也揭示了人工監督對於校準充分性判斷及修正過於寬鬆的建議之重要性。這些結果顯示，以檢索為基礎的多代理人系統可輔助稽核證據審查，但應定位為決策支援工具，而非自主式的認證系統。」
+
+*   Heterogeneous organizational evidence: 異質性的組織證據（指格式、類型各異的資料）。
+*   Semantic security and compliance controls: 語義上的安全性與合規性控制措施（強調不僅是字面符合，而是含義上的符合）。
+*   Evidentiary sufficiency: 證據的充分性（稽核核心概念，指證據是否足以支撐結論）。
+*   Retrieval-grounded multi-agent system: 以檢索為基礎的多代理人系統（AI 領域術語，指系統的回答是基於檢索到的資料，而非憑空生成）。
+*   Adverse findings: 不利發現（稽核術語，指發現不符合規範的項目）。
+*   Remediation guidance: 補救指引（指發現問題後，如何修正的指導建議）。
+*   Decision-support tools vs. Autonomous certification systems: 決策支援工具 vs. 自主式認證系統（強調 AI 應輔助人類，而非取代人類進行最終認證）。

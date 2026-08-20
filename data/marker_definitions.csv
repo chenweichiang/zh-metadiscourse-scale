@@ -1,0 +1,11 @@
+marker,hyland_category,regex
+additive_transition,interactive/transitions,"不僅[^。！？\n]{0,30}(?:更|也還|還|也)"
+contrastive_restatement,interactive/code glosses,"(?:不是|並非|不只是|不僅僅是)[^。！？\n]{0,30}(?:而是|而在於)"
+frame_marker,interactive/frame markers,"(?:綜上所述|總的來說|總而言之|整體而言|由此可見|本文旨在|首先.{0,8}其次)"
+code_gloss,interactive/code glosses,——|(?<!—)—(?!—)
+evidential,interactive/evidentials,(?:有學者認為|有研究指出|眾多研究顯示|文獻指出|研究顯示)
+perspective_frame,interactive/frame markers,"(?:在[^。！？\n]{0,30}(?:脈絡|框架|語境|視角|維度)下|從[^。！？\n]{0,30}(?:視角|角度)(?:出發|來看))"
+booster,interactional/boosters,(?:至關重要|不可或缺|極為重要|深刻地|全方位|高度重視|無疑|必然)
+attitude_marker,interactional/attitude,(?:值得注意的是|需要注意的是|必須指出的是|重要的是要|令人驚訝的是)
+hedge,interactional/hedges,(?:可能|或許|也許|似乎|大致|傾向於|在某種程度上|某種程度而言|不一定|未必|大體上)
+self_mention,interactional/self-mention,(?:本研究|本文|筆者|我們認為|作者認為)
