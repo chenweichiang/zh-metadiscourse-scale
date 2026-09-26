@@ -7,7 +7,7 @@ authors:
     given-names: Chenwei
     affiliation: "National Taipei University of Business"
 license: MIT
-version: 1.0.0
+version: 1.0.1
 repository-code: "https://github.com/chenweichiang/zh-metadiscourse-scale"
 preferred-citation:
   type: conference-paper

@@ -1,7 +1,9 @@
 # data — study data for the accompanying article
 
-Derived data for the corpus study that this scale comes from. Everything here can be
-regenerated from the scripts in `src/zhmd/`.
+Derived data for the corpus study that this scale comes from. The counts for the 201 machine
+and translated texts can be regenerated from `data/machine_texts/` with `src/zhmd/`; the human
+counts cannot, because the articles are not redistributed. How the sets are compared is spelled
+out in `tests/readme_repro.py`.
 
 | File | Contents |
 |---|---|
@@ -19,7 +21,7 @@ regenerated from the scripts in `src/zhmd/`.
 | `machine_local` | 48 | Three local open-weight models × two prompt conditions × eight titles, temperature 0.8 |
 | `machine_commercial` | 64 | Four commercial models, 16 texts each |
 | `temperature_variant` | 32 | gemma4:26b at temperatures 0.3 and 1.2, for the sensitivity check |
-| `translation` | 57 | English articles translated into Chinese by the same local models |
+| `translation` | 57 | English text translated into Chinese by local models, in two batches: 15 paper paragraphs by gemma4 (`T_` files) and 42 arXiv cs.HC abstracts by gemma4-26b and gpt-oss-20b (`T2_` files). The `model` column is blank for this set |
 
 ## What is not here, and why
 
